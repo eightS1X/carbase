@@ -16,3 +16,8 @@ cd ../server
 
 ./mvnw spring-boot:run
 ```
+
+Technologies used:
+
+Okta
+Lombok
