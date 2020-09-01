@@ -29,6 +29,8 @@ Installing Angular may result in an error if Node installer was used (which inst
 
 --enable-ivy option may not be recognized with newer versions of Angular, which is set to true by default
 
+New version of Angular (9+) no longer allows imports from '@angular/material'; each import must be defined with its specific source folder
+
 Technologies used:
 
 Okta
