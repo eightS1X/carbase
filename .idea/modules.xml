@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/carbase-server/carbase.iml" filepath="$PROJECT_DIR$/carbase-server/carbase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/carbase-client/carbase-client.iml" filepath="$PROJECT_DIR$/carbase-client/carbase-client.iml" />
     </modules>
   </component>
 </project>
