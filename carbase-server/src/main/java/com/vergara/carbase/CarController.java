@@ -24,7 +24,7 @@ class CarController {
                 .collect(Collectors.toList());
     }
 
-    // Return "cool"" cars from repository
+    // Return "cool" cars from repository
     @GetMapping("/cool-cars")
     @CrossOrigin(origins = "http://localhost:4200")
     public Collection<Car> coolCars() {
