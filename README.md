@@ -31,6 +31,8 @@ Installing Angular may result in an error if Node installer was used (which inst
 
 New version of Angular (9+) no longer allows imports from '@angular/material'; each import must be defined with its specific source folder
 
+If some imports don't work (especially due to commenting Okta dependency in the beginning) go to: File > Invalidate Caches and Restart
+
 Technologies used:
 
 Okta
