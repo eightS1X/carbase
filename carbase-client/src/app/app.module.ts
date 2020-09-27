@@ -15,6 +15,7 @@ import { MatListModule } from "@angular/material/list";
 import { MatToolbarModule } from "@angular/material/toolbar";
 import { FormsModule } from "@angular/forms";
 import { CarEditComponent } from './car-edit/car-edit.component';
+import { AuthRoutingModule } from './auth-routing.module';
 
 
 @NgModule({
@@ -34,7 +35,8 @@ import { CarEditComponent } from './car-edit/car-edit.component';
     MatInputModule,
     MatListModule,
     MatToolbarModule,
-    FormsModule
+    FormsModule,
+    AuthRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
