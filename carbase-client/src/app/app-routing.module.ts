@@ -6,21 +6,19 @@ import { OktaAuthGuard } from '@okta/okta-angular';
 
 const routes: Routes = [
   {
-    path: '',
-    redirectTo: '/car-list',
-    pathMatch: 'full'
-  },
-  {
     path: 'car-list',
-    component: CarListComponent
+    component: CarListComponent,
+    canActivate: [OktaAuthGuard]
   },
   {
     path: 'car-add',
-    component: CarEditComponent
+    component: CarEditComponent,
+    canActivate: [OktaAuthGuard]
   },
   {
     path: 'car-edit/:id',
-    component: CarEditComponent
+    component: CarEditComponent,
+    canActivate: [OktaAuthGuard]
   }
 ];
 

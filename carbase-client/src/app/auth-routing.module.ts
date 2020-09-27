@@ -7,6 +7,9 @@ import { HTTP_INTERCEPTORS, HttpClientModule } from '@angular/common/http';
 import { OKTA_CONFIG, OktaAuthModule } from '@okta/okta-angular';
 import { AuthInterceptor } from './shared/okta/auth.interceptor';
 
+import { MatButtonModule } from "@angular/material/button";
+import { MatCardModule } from "@angular/material/card";
+
 const oktaConfig = {
   issuer: 'https://dev-142339.okta.com/oauth2/default',
   redirectUri: window.location.origin + '/callback',
@@ -34,7 +37,9 @@ const routes: Routes = [
     CommonModule,
     HttpClientModule,
     OktaAuthModule,
-    RouterModule.forRoot(routes)
+    RouterModule.forRoot(routes),
+    MatButtonModule,
+    MatCardModule
   ],
   providers: [
     { provide: OKTA_CONFIG, useValue: oktaConfig },
