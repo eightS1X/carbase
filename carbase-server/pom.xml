@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.vergara</groupId>
-	<artifactId>carbase</artifactId>
+	<artifactId>server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>carbase</name>
+	<name>server</name>
 	<description>Angular Spring POC App</description>
 
 	<properties>
