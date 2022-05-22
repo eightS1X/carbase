@@ -1,6 +1,6 @@
 Angular + Spring App
 
-Built with Maven
+Built with Maven (dependencies defined in pom.xml instead of Gradle's build.gradle)
 
 Quick-start:
 ```
